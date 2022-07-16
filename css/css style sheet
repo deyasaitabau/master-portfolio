@@ -1,0 +1,89 @@
+body {
+    background-color:=#F1F1F1;
+
+}
+
+.nav-main{
+position:fixed;
+top:0;    
+width:100%;
+height:60px;
+background-color:=#FFF;
+display: flex;
+flex-wrap:wrap;
+Z-index:1000;
+}
+
+btn-toggle-nav{
+width:60px;
+height:100%
+background-color:1b1b1b
+background-image:url("music/Screenshot_20220716-141732_1.png);
+background repeat: no repeat
+background size:40%
+background position: center
+cursor: pointer;
+}
+    btn-toggle-nav{
+        opacity:0,5;
+
+    }
+
+nav-main > ul {
+display:flex 
+flex-wrap:wrap;
+padding-leff :20px
+
+
+}
+
+
+nav-main > ul li {
+list- style: none ;
+line-height:60px
+
+}
+nav-main >ul li a {
+display:bloc;
+height:100%;
+text decoration: none; 
+padding: 0 10px ;
+color:#111;
+
+}
+nav-sidebar{
+position:fixed;
+left:0
+bottom:0;
+with:50px;
+padding :0 50px
+background-color:#1b1b1b;
+z-index:1000;
+ }
+
+ .nav-sidebar ul{
+padding top:15px;
+over-flow:hidden;
+visibility:hidden 
+ }
+
+
+ .nav-sidebar ul li {
+    list-style:none;
+    line-height:60px
+ }
+
+ .nav-sidebar ul li a , .nav-sidebar ul li span: {
+color:#fff;
+text-decoration:none 
+padding:0 10px 
+display:block;
+font-side:16px 
+text-transform:uppercase;
+white-space:nowrap;
+
+
+}
+nav-sidebar ul li a:hover {
+background-color#222;
+}
